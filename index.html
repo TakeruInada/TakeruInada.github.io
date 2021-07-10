@@ -126,6 +126,43 @@
     font-weight: normal;
     text-align: center;
 }
+.footer {
+ position: relative;
+ height: 200px;
+ border: px solid #333333;
+ padding: 5px;
+ background-color:#fafafa;
+}
+.btn-flat-simple {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+  color: #f0f8ff;
+  background: #ECECEC;
+  transition: .4s;
+}
+
+.btn-circle-border-double {
+  display: inline-block;
+  text-decoration: none;
+  color: #b0c4de;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  border: double 4px #b0c4de;
+  text-align: center;
+  overflow: hidden;
+  transition: .6s;
+}
+
+.btn-circle-border-double:hover {
+  -webkit-transform: rotateY(360deg);
+  transform: rotateY(360deg);
+}
+
 </style>
 
 <section class="wrapper">
@@ -173,5 +210,11 @@
         </div>
     </div>
 </section>
+
+<footer>
+    <nav>
+        <a href="(全体ができてから)" class="btn-circle-border-double">上へ</a>
+    </nav>
+    </footer>  
 </head>
 </html>
